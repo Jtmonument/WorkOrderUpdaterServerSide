@@ -47,7 +47,6 @@ catch(Exception e)
 {
     try
     {
-        Log("Internal Server Error!");
         Log(e.Message);
     }
     catch { }
