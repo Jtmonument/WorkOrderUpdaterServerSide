@@ -34,7 +34,6 @@ try
         {
             try
             {
-                Log("Could not restart the COSS ERP Manager");
                 Log(e.Message);
             } catch { }
             var message = Encoding.ASCII.GetBytes("FAILURE");
